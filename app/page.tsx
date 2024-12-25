@@ -10,7 +10,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('kdramas');
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen gradient-bg text-white">
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
       <main className="container mx-auto px-4 py-8">
         <AnimatePresence mode="wait">
